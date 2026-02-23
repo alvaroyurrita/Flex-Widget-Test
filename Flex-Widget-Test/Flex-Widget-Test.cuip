@@ -3,7 +3,7 @@ Schema = "1.0.0.0"
 CreatedByAppHost = "2.801.22.0"
 Created = 2026-02-23 15:06:26.35361-05:00
 LastModifiedByAppHost = "2.801.22.0"
-Modified = 2026-02-23 15:07:22.618558-05:00
+Modified = 2026-02-23 15:25:40.924846-05:00
 CreatedByProjectApp = "1.4401.12.0"
 LastModifiedByProjectApp = "1.4401.12.0"
 MinimumProjectApp = "1.2600.1"
@@ -15,19 +15,19 @@ MinimumAppHost = "2.0.0"
 {ProjectAttributes}
 
 [Attributes]
+ComponentKey = "UiEditor"
 Name = "Flex-Widget-Test"
-ThemeId = "light-theme.css"
-ProjectThemeIds = "light-theme.css"
-ThemePageColor = "#ffffff"
+ThemeId = "dark-theme.css"
+ProjectThemeIds = "dark-theme.css"
+ThemePageColor = "#4d4d4d"
 IncludeUnusedAsset = "False"
 OverrideThemeColor = "False"
 SdkId = "CH5:2.17.0"
-ComponentKey = "UiEditor"
 Id = "e5e81e6d-42e4-4dd5-890d-45a342505f88"
 RuntimeThemeJoin = "0"
 RuntimeLanguageJoin = "0"
-DeviceResolutionIds = "G-L-4KMONIT-2560-1440"
+DeviceResolutionIds = "D-L-TSW1070-1280-0800"
 ipId = "03"
 ProjectSchemaVersion = "7"
-ContractIsStale = "false"
+ContractIsStale = "true"
 
