@@ -1,0 +1,20 @@
+{
+  "_fileMetadata": {
+    "_schema": "1.0.0.0",
+    "_createdByAppHost": "2.801.22.0",
+    "_created": "2026-02-23T15:06:26.3691108-05:00",
+    "_lastModifiedByAppHost": "2.801.22.0",
+    "_minimumAppHost": "2.0.0",
+    "_modified": "2026-02-23T15:06:26.3690947-05:00"
+  },
+  "_solution": {
+    "_name": "Flex-Widgets-Test",
+    "_projects": [
+      {
+        "_name": "Flex-Widget-Test",
+        "_filename": "Flex-Widget-Test/Flex-Widget-Test.cuip",
+        "_datetime": "2026-02-23T20:06:26.3294262Z"
+      }
+    ]
+  }
+}
