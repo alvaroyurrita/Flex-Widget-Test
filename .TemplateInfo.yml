@@ -1,0 +1,8 @@
+templateName: Construct
+resource: TemplateHandler.Zipped_Templates.Construct.zip
+defaultProjectName: GUI_{Function}
+needsSharepoint: false
+version: 1.0.0
+help: https://dgiinvisuals.sharepoint.com/sites/DGICodeAndConfigFiles/SitePages/Construct-Template.aspx
+isLegacy: false
+needsDocs: false
