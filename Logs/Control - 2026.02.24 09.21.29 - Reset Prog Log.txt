@@ -1,0 +1,319 @@
+0 ms: [Console Data] : progreg
+0 ms: [Console Data] :  Program 1 is registered: WidgetTest 
+0 ms: [Console Data] :  
+157 ms: [Console Data] : CP3>progreset -P:1
+172 ms: [Console Data] : ** Restarting Program ** 
+172 ms: [Console Data] :  
+172 ms: [Console Data] : CP3>
+188 ms: [Console Data] : Stopping Program:1...........
+188 ms: [Console Data] : Waiting for un-registration to complete:1.
+204 ms: [Console Data] : Completing program stop:1....................
+00:00:01.204: [Console Data] : .
+00:00:02.360: [Console Data] : CP3>**Program Stopped:1**
+00:00:02.360: [Console Data] : **Restarting Program:1**
+00:00:09.610: [Console Data] : Program Boot Directory:1: \simpl\app01
+00:00:09.641: [Console Data] : Loading Route File:1..
+00:00:09.985: [Console Data] : Loading Symbols:1.
+00:00:09.985: [Console Data] : Loading Cloud Data:1.
+00:00:09.985: [Console Data] : Creating Permanent String Pool:1.
+00:00:10.250: [Console Data] : Registering Devices:1.
+00:00:10.250: [Console Data] : Initializing:1.
+00:00:10.250: [Console Data] : Source File:  C:\GIT Development\Learning\Flex-Widget-Test\Control\Control
+00:00:10.250: [Console Data] : Program File: Control.smw
+00:00:10.250: [Console Data] : System Name:  {Not Specified}
+00:00:10.250: [Console Data] : Programmer:   AY
+00:00:10.266: [Console Data] : Compiled On:  2/24/2026 8:52 AM
+00:00:10.266: [Console Data] : Compiler Rev: 3.03
+00:00:10.266: [Console Data] : CrestronDB:   228.35.001.00
+00:00:10.266: [Console Data] : DeviceDB:     200.435.001.00
+00:00:10.266: [Console Data] : SYMLIB Rev:   1234
+00:00:10.266: [Console Data] : IOLIB Rev:    1234
+00:00:10.282: [Console Data] : IOPCFG Rev:   4.1.76
+00:00:10.282: [Console Data] : Source Env:   SIMPL Windows v4.3000.01
+00:00:10.282: [Console Data] : Target Rack:  CP3
+00:00:10.282: [Console Data] : Config Rev:   22
+00:00:10.282: [Console Data] : Include4.dat: 2.21.184
+00:00:10.297: [Console Data] : Friendly Name:WidgetTest
+00:00:11.313: Init_Pulse -> 1
+00:00:11.313: NavButtons_Button_1.Button_Text -> Button_1
+00:00:11.313: NavButtons_Button_2.Button_Text -> Button_2
+00:00:11.313: NavButtons_Button_3.Button_Text -> Button_3
+00:00:11.313: NavButtons_Button_4.Button_Text -> Button_4
+00:00:11.313: NavButtons_Button_5.Button_Text -> Button_5
+00:00:11.313: Page1_Press -> 1
+00:00:11.313: Page1_Selected -> 1
+00:00:11.344: [Console Data] : Running Initial Solution:1.
+00:00:11.360: [Console Data] : Program Initialized:1.
+00:00:11.360: Init_Pulse -> 0
+00:00:11.485: Page1_Press -> 0
+00:00:11.532: [Console Data] : Update request from Slot-02.IP-ID-03 in Program 01
+00:00:11.875: [Console Data] :  
+00:00:11.907: [Console Data] : Program(s) Started...
+00:00:15.157: [Console Data] : Update request from Slot-02.IP-ID-03 in Program 01
+00:00:15.344: FlexMeetingRoom_Show_Project_fb -> 1
+00:00:15.344: FlexSystem_Auto_Frame_OFF_fb -> 1
+00:00:15.344: FlexUCEngine_Image_Mode_Teams_fb -> 1
+00:00:15.344: FlexEthernet_Ip_Address_fb -> 192.168.1.237
+00:00:15.344: FlexSystem4_Soundbar_fw_version_fb -> Not Connected\x0D\x0A
+00:00:15.344: FlexDeviceInfo_UCENG_Hostname_fb -> RF-FLEX-UCE
+00:00:15.344: FlexSystem2_Exit_Standby_fb -> 1
+00:00:15.344: FlexEthernet_MAC_Address_fb -> 54-B2-03-14-D4-CF
+00:00:15.391: FlexSystem4_Capture_Hw_Name_fb -> Crestron HD-CONV-USB-200
+00:00:15.391: FlexDeviceInfo_UCENG_Serial_Number_fb -> UCE04003860
+00:00:15.391: FlexSystem2_Occupancy_Sensor_IP_Address_fb -> <empty>
+00:00:15.391: FlexMeetingRoom_Camera_Preset_0_fb -> 1
+00:00:15.391: FlexSystem_Project_Name_fb -> Flex-Widget-Test
+00:00:15.391: FlexSystem4_Capture_Hw_Fw_fb -> 51
+00:00:15.391: FlexDeviceInfo_UCENG_Firmware_Ver_fb -> 1.21.00.217
+00:00:15.391: FlexSystem_Project_Date_fb -> 02/24/2026, 06:44:54 PM
+00:00:15.391: FlexUCEngine_Jabra_AF_V_Director_fb -> 1
+00:00:15.391: FlexSystem4_MTR_APP_Exchange_signed_in_fb -> 1
+00:00:15.391: FlexDeviceInfo_BIOS_Version_fb -> KYSKLi70.86A.0073.2021.0722.1021
+00:00:15.391: FlexSystem_MTR_App_Version_fb -> 5.4.210.0
+00:00:15.391: FlexDeviceInfo_SSD_Model_Name_fb -> TS128GMTS800
+00:00:15.391: FlexSystem_MTR_APP_State_fb -> Idle
+00:00:15.391: FlexSystem4_MTR_APP_Teams_signed_in_fb -> 1
+00:00:15.391: FlexDeviceInfo_SSD_Firmware_Ver_fb -> P1225CH1
+00:00:15.391: FlexSystem_MTR_APP_Version_State_fb -> Supported
+00:00:15.391: FlexUCEngine_Capture_Color_Mode_Auto_fb -> 1
+00:00:15.391: FlexDeviceInfo_Touch_Panel_Model_fb -> TSW-1060
+00:00:15.391: FlexMeetingRoom_Camera_Preset_fb -> 0d
+00:00:15.391: FlexSystem_Partner_App_Version_fb -> <empty>
+00:00:15.391: FlexDeviceInfo_Touch_Panel_Firmware_fb -> 3.002.1071.001
+00:00:15.391: FlexUCEngine_UCENGINE_Auto_Zoom_Speed_Medium_fb -> 1
+00:00:15.391: FlexUCEngine_Polycom_TT_Enable_Group_Framing_fb -> 1
+00:00:15.391: FlexUCEngine_Polycom_TT_Medium_Sensitivity_fb -> 1
+00:00:15.391: FlexUCEngine_Polycom_TT_Medium_Margin_fb -> 1
+00:00:15.391: FlexUCEngine_Genius_Framing_fb -> 1
+00:00:15.391: FlexUCEngine_Panel_Occupancy_Vacant_fb -> 1
+00:00:15.391: FlexUCEngine_Sensor_Occupancy_Vacant_fb -> 1
+00:00:15.391: FlexUCEngine_Occupancy_Status_Vacant_fb -> 1
+00:00:15.391: FlexUCEngine_Occupancy_Sensor_Disconnected_fb -> 1
+00:00:15.391: FlexUCEngine_BYOD_Off_fb -> 1
+00:00:15.391: FlexUCEngine_Image_Mode_fb -> 0d
+00:00:15.391: FlexUCEngine_Huddly_Room_Occupant_Count_fb -> 0d
+00:00:15.391: FlexUCEngine_Huddly_AutoZoom_Mode_fb -> 0d
+00:00:15.391: FlexUCEngine_Polycom_TT_Enable_Analog_fb -> 1d
+00:00:15.391: FlexUCEngine_Polycom_TT_Sensitivity_Analog_fb -> 1d
+00:00:15.391: FlexUCEngine_Polycom_TT_Frame_Size_Analog_fb -> 1d
+00:00:15.391: FlexUCEngine_MTR_Conf_Mic_Status_fb -> Healthy
+00:00:15.391: FlexUCEngine_MTR_Conf_Spk_Status_fb -> Healthy
+00:00:15.391: FlexUCEngine_MTR_Default_Spk_Status_fb -> Healthy
+00:00:15.391: FlexUCEngine_MTR_Camera_Status_fb -> Healthy
+00:00:15.391: FlexUCEngine_MTR_On_Front_Room_Display_Status_fb -> Unhealthy
+00:00:15.391: FlexUCEngine_MTR_Motion_Sensor_Status_fb -> NotApplicable
+00:00:15.391: FlexUCEngine_MTR_Hdmi_Ingest_Status_fb -> Healthy
+00:00:15.391: FlexUCEngine_MTR_Content_Camera_Status_fb -> Healthy
+00:00:15.391: FlexUCEngine_Software_Build_fb -> 5.4.210.0
+00:00:15.391: FlexUCEngine_Provisioning_Version_fb -> 14
+00:00:15.391: FlexUCEngine_Windows_Build_fb -> 10.0.19045.6456
+00:00:15.391: FlexUCEngine_Huddly_Serial_Number_fb -> B43J00006
+00:00:15.391: FlexUCEngine_Huddly_Software_Version_fb -> IQ 1.6.21-156906
+00:00:15.391: FlexUCEngine_Huddly_Camera_Version_fb -> 1.6.21-156906
+00:00:15.391: FlexUCEngine_Huddly_Upgrade_Status_fb -> <empty>
+00:00:15.391: FlexUCEngine_UCENGINE_Camera_Name_fb -> Huddly IQ
+00:00:15.391: FlexUCEngine_UCENGINE_Camera_Fw_Version_fb -> 1.6.21-156906
+00:00:15.391: FlexUCEngine_Logitech_Sync_Version_fb -> <empty>
+00:00:15.391: FlexUCEngine_Mtr_Coordinated_Meetings_fb -> <empty>
+00:00:15.391: FlexUCEngine_Huddly_Camera_Connected_fb -> 1
+00:00:15.391: FlexUCEngine_Camera_Connected_fb -> 1
+00:00:15.391: FlexUCEngine_UCENG_Panel_Connected_fb -> 1
+00:00:15.391: FlexUCEngine_MTR_Meet_App_Connected_fb -> 1
+00:00:16.219: Button_1.Visible_Press -> 0
+00:00:16.219: Button_2.Visible_Press -> 0
+00:00:16.219: Button_3.Visible_Press -> 0
+00:00:16.219: Button_4.Visible_Press -> 0
+00:00:16.219: Button_5.Visible_Press -> 0
+00:00:16.219: Flex_activity -> 0
+00:00:16.219: FlexDeviceInfo_BIOS_Version_fb -> <empty>
+00:00:16.219: FlexDeviceInfo_SSD_Firmware_Ver_fb -> <empty>
+00:00:16.219: FlexDeviceInfo_SSD_Model_Name_fb -> <empty>
+00:00:16.219: FlexDeviceInfo_Touch_Panel_Firmware_fb -> <empty>
+00:00:16.219: FlexDeviceInfo_Touch_Panel_Model_fb -> <empty>
+00:00:16.219: FlexDeviceInfo_UCENG_Firmware_Ver_fb -> <empty>
+00:00:16.219: FlexDeviceInfo_UCENG_Hostname_fb -> <empty>
+00:00:16.219: FlexDeviceInfo_UCENG_Serial_Number_fb -> <empty>
+00:00:16.219: FlexEthernet_Ip_Address_fb -> <empty>
+00:00:16.219: FlexEthernet_MAC_Address_fb -> <empty>
+00:00:16.219: FlexMeetingRoom_Camera_Preset_0_fb -> 1
+00:00:16.219: FlexMeetingRoom_Camera_Preset_1_fb -> 0
+00:00:16.219: FlexMeetingRoom_Camera_Preset_2_fb -> 0
+00:00:16.219: FlexMeetingRoom_Camera_Preset_3_fb -> 0
+00:00:16.219: FlexMeetingRoom_Camera_Preset_4_fb -> 0
+00:00:16.219: FlexMeetingRoom_Camera_Preset_fb -> 0d
+00:00:16.219: FlexMeetingRoom_Hide_Project -> 0
+00:00:16.219: FlexMeetingRoom_Hide_Project_fb -> 0
+00:00:16.219: FlexMeetingRoom_Show_Project -> 0
+00:00:16.219: FlexMeetingRoom_Show_Project_fb -> 1
+00:00:16.219: FlexSystem2_Attached_Camera_List_fb -> <empty>
+00:00:16.219: FlexSystem2_Enter_Standby -> 0
+00:00:16.219: FlexSystem2_Enter_Standby_fb -> 0
+00:00:16.219: FlexSystem2_Exit_Standby -> 0
+00:00:16.219: FlexSystem2_Exit_Standby_fb -> 1
+00:00:16.219: FlexSystem2_Occupancy_Sensor_IP_Address_fb -> <empty>
+00:00:16.219: FlexSystem2_TS_Auto_Brightness_fb -> <empty>
+00:00:16.219: FlexSystem4_Capture_Hw_Fw_fb -> <empty>
+00:00:16.219: FlexSystem4_Capture_Hw_Name_fb -> <empty>
+00:00:16.219: FlexSystem4_MTR_APP_Exchange_signed_in_fb -> 1
+00:00:16.219: FlexSystem4_MTR_APP_in_meeting_fb -> 0
+00:00:16.219: FlexSystem4_MTR_App_Signed_in_fb -> 0
+00:00:16.219: FlexSystem4_MTR_APP_Teams_signed_in_fb -> 1
+00:00:16.219: FlexSystem4_Soundbar_fw_version_fb -> <empty>
+00:00:16.219: FlexSystem_Auto_Frame_OFF_fb -> 1
+00:00:16.219: FlexSystem_Auto_Frame_ON_fb -> 0
+00:00:16.219: FlexSystem_MTR_APP_State_fb -> <empty>
+00:00:16.219: FlexSystem_MTR_App_Version_fb -> <empty>
+00:00:16.219: FlexSystem_MTR_APP_Version_State_fb -> <empty>
+00:00:16.219: FlexSystem_Partner_App_Version_fb -> <empty>
+00:00:16.219: FlexSystem_Project_Date_fb -> <empty>
+00:00:16.219: FlexSystem_Project_Name_fb -> <empty>
+00:00:16.219: FlexUCEngine_Auto_Focus_fb -> 0
+00:00:16.219: FlexUCEngine_BYOD_Off_fb -> 1
+00:00:16.219: FlexUCEngine_BYOD_On_fb -> 0
+00:00:16.219: FlexUCEngine_Camera_Connected_fb -> 1
+00:00:16.219: FlexUCEngine_Capture_Color_Mode_Auto_fb -> 1
+00:00:16.219: FlexUCEngine_Capture_Color_Mode_fb -> 0d
+00:00:16.219: FlexUCEngine_Capture_Color_Mode_Full_fb -> 0
+00:00:16.219: FlexUCEngine_Capture_Color_Mode_Limited_fb -> 0
+00:00:16.219: FlexUCEngine_Gallery_View_fb -> 0
+00:00:16.219: FlexUCEngine_Genius_Framing_fb -> 1
+00:00:16.219: FlexUCEngine_Huddly_AutoZoom_Mode_fb -> 0d
+00:00:16.219: FlexUCEngine_Huddly_Camera_Connected_fb -> 1
+00:00:16.219: FlexUCEngine_Huddly_Camera_Version_fb -> <empty>
+00:00:16.282: FlexUCEngine_Huddly_Director_fb -> 0
+00:00:16.282: FlexUCEngine_Huddly_Room_Occupant_Count_fb -> 0d
+00:00:16.282: FlexUCEngine_Huddly_Serial_Number_fb -> <empty>
+00:00:16.282: FlexUCEngine_Huddly_Software_Version_fb -> <empty>
+00:00:16.282: FlexUCEngine_Huddly_Upgrade_Status_fb -> <empty>
+00:00:16.282: FlexUCEngine_Image_Mode_fb -> 0d
+00:00:16.282: FlexUCEngine_Image_Mode_Teams_fb -> 1
+00:00:16.282: FlexUCEngine_Image_Mode_Zoom_fb -> 0
+00:00:16.282: FlexUCEngine_Jabra_AF_Intelligent_fb -> 0
+00:00:16.282: FlexUCEngine_Jabra_AF_V_Director_fb -> 1
+00:00:16.282: FlexUCEngine_Logitech_Sync_Version_fb -> <empty>
+00:00:16.282: FlexUCEngine_MTR_Camera_Status_fb -> <empty>
+00:00:16.282: FlexUCEngine_MTR_Conf_Mic_Status_fb -> <empty>
+00:00:16.282: FlexUCEngine_MTR_Conf_Spk_Status_fb -> <empty>
+00:00:16.282: FlexUCEngine_MTR_Content_Camera_Status_fb -> <empty>
+00:00:16.282: FlexUCEngine_Mtr_Coordinated_Meetings_fb -> <empty>
+00:00:16.282: FlexUCEngine_MTR_Default_Spk_Status_fb -> <empty>
+00:00:16.282: FlexUCEngine_MTR_Hdmi_Ingest_Status_fb -> <empty>
+00:00:16.282: FlexUCEngine_MTR_Meet_App_Connected_fb -> 1
+00:00:16.282: FlexUCEngine_MTR_Motion_Sensor_Status_fb -> <empty>
+00:00:16.282: FlexUCEngine_MTR_On_Front_Room_Display_Status_fb -> <empty>
+00:00:16.282: FlexUCEngine_Occupancy_Sensor_Connected__fb -> 0
+00:00:16.282: FlexUCEngine_Occupancy_Sensor_Disconnected_fb -> 1
+00:00:16.282: FlexUCEngine_Occupancy_Status_Occupied_fb -> 0
+00:00:16.282: FlexUCEngine_Occupancy_Status_Vacant_fb -> 1
+00:00:16.282: FlexUCEngine_Panel_Occupancy_Occupied_fb -> 0
+00:00:16.282: FlexUCEngine_Panel_Occupancy_Vacant_fb -> 1
+00:00:16.282: FlexUCEngine_Polycom_TT_Disabled_fb -> 0
+00:00:16.282: FlexUCEngine_Polycom_TT_Enable_Analog_fb -> 1d
+00:00:16.282: FlexUCEngine_Polycom_TT_Enable_Group_Framing_fb -> 1
+00:00:16.282: FlexUCEngine_Polycom_TT_Enable_People_Framing_fb -> 0
+00:00:16.282: FlexUCEngine_Polycom_TT_Enable_Talker_Framing_fb -> 0
+00:00:16.282: FlexUCEngine_Polycom_TT_Frame_Size_Analog_fb -> 1d
+00:00:16.282: FlexUCEngine_Polycom_TT_High_Sensitivity_fb -> 0
+00:00:16.282: FlexUCEngine_Polycom_TT_Low_Sensitivity_fb -> 0
+00:00:16.282: FlexUCEngine_Polycom_TT_Medium_Margin_fb -> 1
+00:00:16.282: FlexUCEngine_Polycom_TT_Medium_Sensitivity_fb -> 1
+00:00:16.282: FlexUCEngine_Polycom_TT_Sensitivity_Analog_fb -> 1d
+00:00:16.282: FlexUCEngine_Polycom_TT_Tight_Margin_fb -> 0
+00:00:16.282: FlexUCEngine_Polycom_TT_Wide_Margin_fb -> 0
+00:00:16.282: FlexUCEngine_Provisioning_Version_fb -> <empty>
+00:00:16.282: FlexUCEngine_Sensor_Occupancy_Occupied_fb -> 0
+00:00:16.282: FlexUCEngine_Sensor_Occupancy_Vacant_fb -> 1
+00:00:16.282: FlexUCEngine_Software_Build_fb -> <empty>
+00:00:16.282: FlexUCEngine_UCENG_Panel_Connected_fb -> 1
+00:00:16.282: FlexUCEngine_UCENGINE_Auto_Zoom_Mode_fb -> 0d
+00:00:16.282: FlexUCEngine_UCENGINE_Auto_Zoom_Speed_Fast_fb -> 0
+00:00:16.282: FlexUCEngine_UCENGINE_Auto_Zoom_Speed_Fastest_fb -> 0
+00:00:16.282: FlexUCEngine_UCENGINE_Auto_Zoom_Speed_fb -> 0d
+00:00:16.282: FlexUCEngine_UCENGINE_Auto_Zoom_Speed_Medium_fb -> 1
+00:00:16.282: FlexUCEngine_UCENGINE_Auto_Zoom_Speed_Slow_fb -> 0
+00:00:16.282: FlexUCEngine_UCENGINE_Auto_Zoom_Speed_Slowest_fb -> 0
+00:00:16.282: FlexUCEngine_UCENGINE_Camera_Fw_Version_fb -> <empty>
+00:00:16.282: FlexUCEngine_UCENGINE_Camera_Name_fb -> <empty>
+00:00:16.282: FlexUCEngine_Windows_Build_fb -> <empty>
+00:00:16.469: [Console Data] : MDBGSIGNAL:1 -S:SYNC 167 157 162 34 158 163 35 159 164 36 160 165 37 161 166 38 39 32 40 33
+00:00:16.485: [Console Data] : CP3>
+00:00:16.313: Init_Pulse -> 0
+00:00:16.313: NavButtons_Button_1.Button_Press -> 0
+00:00:16.313: NavButtons_Button_1.Button_Text -> Button_1
+00:00:16.313: NavButtons_Button_1.Button_Visible -> 0
+00:00:16.313: NavButtons_Button_2.Button_Press -> 0
+00:00:16.313: NavButtons_Button_2.Button_Text -> Button_2
+00:00:16.313: NavButtons_Button_2.Button_Visible -> 0
+00:00:16.313: NavButtons_Button_3.Button_Press -> 0
+00:00:16.313: NavButtons_Button_3.Button_Text -> Button_3
+00:00:16.313: NavButtons_Button_3.Button_Visible -> 0
+00:00:16.313: NavButtons_Button_4.Button_Press -> 0
+00:00:16.313: NavButtons_Button_4.Button_Text -> Button_4
+00:00:16.313: NavButtons_Button_4.Button_Visible -> 0
+00:00:16.313: NavButtons_Button_5.Button_Press -> 0
+00:00:16.313: NavButtons_Button_5.Button_Text -> Button_5
+00:00:16.313: NavButtons_Button_5.Button_Visible -> 0
+00:00:16.313: Page1_Press -> 0
+00:00:16.313: Page1_Selected -> 1
+00:00:16.313: Page2_Press -> 0
+00:00:16.313: Page2_Selected -> 0
+00:00:32.875: [Console Data] : CP3>
+00:00:32.875: FlexMeetingRoom_Show_Project_fb -> 0
+00:00:32.875: FlexMeetingRoom_Hide_Project_fb -> 1
+00:00:35.157: FlexMeetingRoom_Show_Project_fb -> 1
+00:00:35.157: FlexMeetingRoom_Hide_Project_fb -> 0
+00:00:36.610: Flex_activity -> 1
+00:00:36.610: Page2_Press -> 1
+00:00:36.610: Page1_Selected -> 0
+00:00:36.610: Page2_Selected -> 1
+00:00:36.610: Page2_Press -> 0
+00:00:37.594: Page1_Press -> 1
+00:00:37.594: Page2_Selected -> 0
+00:00:37.594: Page1_Selected -> 1
+00:00:37.594: Page1_Press -> 0
+00:00:38.579: Flex_activity -> 0
+00:00:38.875: Button_1.Visible_Press -> 1
+00:00:38.875: Flex_activity -> 1
+00:00:38.875: NavButtons_Button_1.Button_Visible -> 1
+00:00:38.875: Button_1.Visible_Press -> 0
+00:00:39.500: Button_1.Visible_Press -> 1
+00:00:39.500: NavButtons_Button_1.Button_Visible -> 0
+00:00:39.500: Button_1.Visible_Press -> 0
+00:00:40.235: Button_2.Visible_Press -> 1
+00:00:40.235: NavButtons_Button_2.Button_Visible -> 1
+00:00:40.235: Button_2.Visible_Press -> 0
+00:00:41.141: Button_1.Visible_Press -> 1
+00:00:41.141: NavButtons_Button_1.Button_Visible -> 1
+00:00:41.141: Button_1.Visible_Press -> 0
+00:00:42.141: Flex_activity -> 0
+00:00:42.688: Button_3.Visible_Press -> 1
+00:00:42.688: Flex_activity -> 1
+00:00:42.688: NavButtons_Button_3.Button_Visible -> 1
+00:00:42.688: Button_3.Visible_Press -> 0
+00:00:43.422: Button_3.Visible_Press -> 1
+00:00:43.422: NavButtons_Button_3.Button_Visible -> 0
+00:00:43.422: Button_3.Visible_Press -> 0
+00:00:44.063: Button_3.Visible_Press -> 1
+00:00:44.063: NavButtons_Button_3.Button_Visible -> 1
+00:00:44.063: Button_3.Visible_Press -> 0
+00:00:44.750: Button_4.Visible_Press -> 1
+00:00:44.750: NavButtons_Button_4.Button_Visible -> 1
+00:00:44.750: Button_4.Visible_Press -> 0
+00:00:45.750: Flex_activity -> 0
+00:00:46.391: Button_5.Visible_Press -> 1
+00:00:46.391: Flex_activity -> 1
+00:00:46.391: NavButtons_Button_5.Button_Visible -> 1
+00:00:46.391: Button_5.Visible_Press -> 0
+00:00:47.375: Flex_activity -> 0
+00:00:49.813: Flex_activity -> 1
+00:00:49.813: Page2_Press -> 1
+00:00:49.829: Page1_Selected -> 0
+00:00:49.829: Page2_Selected -> 1
+00:00:49.829: Page2_Press -> 0
+00:00:50.750: Page1_Press -> 1
+00:00:50.750: Page2_Selected -> 0
+00:00:50.750: Page1_Selected -> 1
+00:00:50.750: Page1_Press -> 0
+00:00:51.735: Flex_activity -> 0
+00:01:52.235: FlexMeetingRoom_Show_Project_fb -> 0
+00:01:52.235: FlexMeetingRoom_Hide_Project_fb -> 1
