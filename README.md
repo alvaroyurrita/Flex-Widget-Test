@@ -50,7 +50,7 @@ The was tried on both a CP3 and a VC4 as the control program device.
 
 ![Sync issue](<Images/Sync Issue.png>)
 
-![Video](https://github.com/alvaroyurrita/Flex-Widget-Test/blob/main/Images/Flex%20Sync%20Issue.mp4)
+https://github.com/user-attachments/assets/eb431f86-b376-4f52-ac48-f345152c25fb
 
 The system was also left overnight on page 2 with all the buttons visible like this:
 
@@ -178,6 +178,7 @@ UC-SB2-CAM: 3.0.4009
 UC2srv: 1.0.7.71  
 UCPR-FW: 1.4588.00064  
 UCPR-HDBTTX: 7.5.8  
+
 
 
 
