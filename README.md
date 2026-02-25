@@ -31,6 +31,9 @@ There are also two buttons on each page that provide the same page switching fun
 > [!IMPORTANT]
 > All Touch Panel tests were done through the Crestron Remote Application Version 1.11.00.004
 
+> [!NOTE]
+> A separate UI Project was made on VTPro with its corresponding control program.  None of the issues observed with the Construct Project were observed with the VTPro project. The project can be found in this repo as well.
+
 # Steps to recreate the issue:
 
 ## Step 1
@@ -38,6 +41,8 @@ There are also two buttons on each page that provide the same page switching fun
 Project has a shared widget with a button list in it.  All buttons on the button list do not have any contract.  Widget dosen't have a visibility join or contract.
 
 Problem was not replicated.
+
+It was however observed that when running the Construct project on the processor or server as a Web Xpanel connected to the same IP-ID, pushing buttons did not work.  The panel will reflect the different UI states, when pushing buttons on the Project running on Crestorn Remote however.
 
 ## Step 2
 
@@ -52,6 +57,8 @@ The was tried on both a CP3 and a VC4 as the control program device.
 ![Sync issue](<Images/Sync Issue.png>)
 
 https://github.com/user-attachments/assets/eb431f86-b376-4f52-ac48-f345152c25fb
+
+This issue was not observed with a VTPro Project
 
 
 ### Loss of Communication Sync Issues
@@ -76,6 +83,9 @@ Notice on the picture below how all the buttons are on the Crestron Remote view 
 
 
 ![After Unblocking](<Images/After Unblocking.png>)
+
+This issue was not observed with a VTPro Project
+
 
 ### Next Day issues
 
@@ -117,15 +127,16 @@ Windows System Information:
 # CP3 Information
 
 CP3>ver -v
-CP3 Cntrl Eng [v1.8001.5061.26823 (Nov 10 2022), #008C6CF4] @E-00107f3dd9f1  
-Build: 14:54:07  Nov 10 2022 (5061.26823)  
-Cab: 1.8001.0214  
-Applications:  1.0.8348.22707  
+CP3 Cntrl Eng [v1.8001.5761.25659 (Oct 10 2024), #008C6CF4] @E-00107f3dd9f1  
+Build: 14:15:18  Oct 10 2024 (5761.25659)  
+Cab: 1.8001.0295  
+Applications:  1.0.9049.24940  
 Updater: 1.0.33  
 Bootloader: 1.30.00  
 IOPVersion: S3 - IO Processor [v1.3177.00007, #FFFFFFFF] slot:6   
 CP3-SetupProgram: 1.003.0024   
-PUF: 1.8001.0214.01  
+Ethernet Phy: Rev1   
+PUF: 1.8001.0295  
 FORCED_AUTH_MODE: True   
 
 # VC4 Information

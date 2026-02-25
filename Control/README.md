@@ -1,3 +1,3 @@
 # Control for Flex Widget Test Project
 
-Provides page flipping funtionality and Flext Teams Monitoring signals. That's it.  No visibility control, or anything else.  This is to try to eliminate the control system from the issue.
+Provides page flipping funtionality and Flex Teams Monitoring signals to accompany the Construct project running on the UC Engine
