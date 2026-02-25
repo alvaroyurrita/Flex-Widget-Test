@@ -41,16 +41,43 @@ Problem was not replicated.
 
 ## Step 2
 
+### Program Reset Sync Issues
+
 Modifying project to add visibility contract to the button list buttons.  Added buttons to toggle that visibility.
 
 It was observed that when the program restarts the button list visibility and the visibility toggle buttons states did not refresh.
 
-The was tried on both a CP3 and a VC4 as the control program device.
-
+The was tried on both a CP3 and a VC4 as the control program device. 
 
 ![Sync issue](<Images/Sync Issue.png>)
 
 https://github.com/user-attachments/assets/eb431f86-b376-4f52-ac48-f345152c25fb
+
+
+### Loss of Communication Sync Issues
+
+Sync issues were also observed after blocking port 41794 on the Compute. The steps to replicate the problem were:
+
+* Issuing A remote powershell command from a different computer to modify the firewall while the UC Engine was running teams.
+
+```powershell
+New-NetFirewallRule -DisplayName "TempProc" -Direction Outbound -RemotePort 41794 -Action Block -Protocol TCP
+```
+* making changes to the touchpanel using debugger:
+    * Change Page
+    * Hide all Buttons
+
+*  Unblocking port 41794
+```powershell
+Remove-NetFirewallRule -DisplayName "TempProc"      
+```
+
+Notice on the picture below how all the buttons are on the Crestron Remote view are shown as Pressed, And the visibility state did not changed on the Button List Buttons. 
+
+
+![After Unblocking](<Images/After Unblocking.png>)
+
+### Next Day issues
 
 The system was also left overnight on page 2 with all the buttons visible like this:
 
