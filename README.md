@@ -1,7 +1,7 @@
 # Flex Widget Test
 
 > [!NOTE]
-> Issue is still present on new Collab Compute. See below for firmware info
+> Issue is still present on new Collab Compute. See below for firmware info. This was tested in both Legacy Connection mode as well as Pairing Mode.
 
 There seems to be an issue with Construct projects when run inside a MTR Compute, specifically a UC-Engine
 
