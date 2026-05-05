@@ -1,5 +1,8 @@
 # Flex Widget Test
 
+> [!NOTE]
+> Issue is still present on new Collab Compute. See below for firmware info
+
 There seems to be an issue with Construct projects when run inside a MTR Compute, specifically a UC-Engine
 
 The problem reported by the client was that the project running inside the UC-Engine would comunicates no problem whith the processors, but after a while, a widget is no longer displayed in the page.
@@ -218,6 +221,51 @@ UCPR-FW: 1.4588.00064
 UCPR-HDBTTX: 7.5.8  
 
 
+# Collab Compute Info
 
+COLLABCOMPUTE-T Unified Collaboration System [v1.23.00.158,%2602OMA19017] 
+MS Teams Rooms App version: 5.5.129.0
+Serial Number: 2602OMA19017 
 
-
+BIOS Z0861AR12_1.R02 
+DM-NAX-AP-100FWUpdater. 1.0.0160.16393 
+eEverDbcloDriver. 1.00.0000.0052 
+Environment 1.00.00.004 
+Firmware 1.23.00.158 
+Flex-Hub 1.3.0826.10388 
+HD-CONV-USB-200 010.051 
+HD-CONV-USB-250 010.051 
+HD-CONV-USB-260 010.051 
+HD-CONV-USB-300 3.25.28 
+MercuryFWUpdater 1.5003.00061.001 
+MercuryXFWUpdater 1.5003.00061.001 
+OneDrive 26.062.0402.0002 
+OS 24H2.26100.23.158 
+RemoteSrv 1.23.00.987 
+SAROS-DM-NAX-IC4AFWUpdater_2.0.0163.19137 
+ToolBoxConsole 3.0.0.0 
+TouchHelper 1.19.00.01 
+TSWxx60FWUpdater 3.002.1071.001 
+TSWxx70FWUpdater 3.003.0011.001 
+TSWxx80FWUpdater 1.0003.0056.000 
+TSxx70FWUpdater 3.003.0011.001 
+TSxx80FWUpdater. 1.0003.0056.000 
+TSxxx70FWUpdater 3.003.0011.001 
+TSxxx80FWUpdater. 1.0003.0056.000 
+UC-2FWUpdater. 1.0.7.71 
+UC-SB-1 FW 2.3.98.56 
+UC-SB-1-DFU 1.00.0000 
+UC-SB-2 FW 2.4.1.20 
+UC-SB2-CAMFWUpdater 3.0.4480 
+UCPR-DPRX 11.116.9 
+UCPR-FW. 1.4588.00064 
+UCPR-HDBTTX 7.5.8 
+UCPR-LOADER .001.0000.419 
+UpdateSrv 2.21.00.217 
+USBUART 2.7.0.0 
+UVCCamera-d12 1.0.30 
+UVCCamera-112 2.1.02 
+UVCCamera-120 2.1.02 
+UVCCamera-p12 2.1.108 
+UVCCamera-p20. 2.1.108 
+VB70Srv 1.00.00.001 
